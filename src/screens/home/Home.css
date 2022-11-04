@@ -1,17 +1,16 @@
-.root {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    overflow: hidden;
-  }
-  
-  .gridList {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: nowrap;
-    transform: translateZ(0);
-  }
-  
-  .grid-tile {
-    height: 250px;
-  }
+.second-section {
+  display: flex;
+}
+
+.released-movies {
+  width: 76%;
+}
+
+.released-movies:hover {
+  cursor: pointer;
+}
+
+.filter-form {
+  margin-left: 10px;
+  width: 24%;
+}
